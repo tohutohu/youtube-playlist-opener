@@ -2,9 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>とーふとふのプレイリスト</title>
+  <a href="https://www.youtube.com/watch?list=PLJzkYqjGlpeu6MrXFyW1DdeR4C7ZrCkUt" target="_blank" id="link">プレイリスト</a>
   <script>
-    location.href = 'https://www.youtube.com/watch?list=PLJzkYqjGlpeu6MrXFyW1DdeR4C7ZrCkUt'
+   // window.open('https://www.youtube.com/watch?list=PLJzkYqjGlpeu6MrXFyW1DdeR4C7ZrCkUt')
+    window.onload = () => {
+      document.querySelector('#link').click()
+    }
   </script>
 </head>
 <body>
